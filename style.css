@@ -1,0 +1,222 @@
+/** Add any CSS you need to this file. */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;500;600;700&display=swap');
+    
+
+
+    .header {
+        overflow: hidden;
+        padding: 0% 36% 0% 21%;
+    }
+    
+    .header-right a {
+        color: black;
+        text-align: center;
+        padding: 35pt 20pt 0pt 10pt;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 16px;
+        line-height: 25px;
+        font-family: 'Noto Sans';
+        transition: color 300ms ease-out;
+        display: inline-block;
+
+    }
+    .header a img{
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
+    .header-right a:hover {
+        color: rgb(197, 197, 197);
+    }
+    .header a.active {
+        color: rgb(197, 197, 197);
+    }
+    
+    .header-right {
+        float: right;
+    }
+    .center{
+        overflow: hidden;
+        padding: 0% 21%;
+        font-family: 'Noto Sans';
+        margin: 0px 0xp 50px 50px;
+        color: white;
+        background-color: rgb(0, 0, 0);
+    }
+    .center a:hover{
+        color: rgb(197, 197, 197);
+    }
+     .shoesheader{
+        font-family: 'Noto Sans';
+        text-decoration: underline;
+     }
+     
+     .bighead{
+      font-family: 'Noto Sans';
+      padding: 0px;
+      margin: 0px;
+      position: relative;
+     } 
+     .bighead img{
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+     }
+     .button {
+      font-family: 'Saira Condensed', sans-serif;
+      font-weight: 700;
+      display: inline-block;
+      color: inherit;
+      text-decoration: none;
+      border: solid 2px #ffffff;
+      cursor: pointer;
+      outline: 0;
+      position: absolute;
+      top: 83.5%;
+      left: 6%;
+      background-color: white;
+      font-size: 19px;
+      padding: 5px 22px;
+      border-radius: 22px;
+      text-align: center;
+      transition: color 200ms ease-out;
+      transition: background-color 200ms ease-out;
+    }
+    .button:hover{
+      color: white;
+      background-color: inherit;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 7pt 10pt;
+      margin-top: .4%;
+
+    }
+    .row img{
+      padding: 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .shoe1T{
+      position: absolute;
+      font-family: 'Saira Condensed', sans-serif;
+      color: white;
+      top: 90.5%;
+      right: 73%;
+      font-size: 500%;
+      transition: opacity 600ms ease-out;
+    }
+    .shoe2T{
+      position: absolute;
+      font-family: 'Saira Condensed', sans-serif;
+      color:rgb(255, 251, 0);
+      top: 90.5%;
+      right: 39.65%;
+      font-size: 500%;
+      transition: opacity 600ms ease-out;
+    }
+    .shoe3T{
+      position: absolute;
+      font-family: 'Saira Condensed', sans-serif;
+      color: rgb(255, 0, 0);
+      top: 90.5%;
+      right: 4.5%;
+      font-size: 500%;
+      transition: opacity 600ms ease-out;
+    }
+   .row img:hover + .shoe1T{
+     opacity: 0%;
+     background-color: inherit;
+   }
+   .row img:hover + .shoe2T{
+    opacity: 0%;
+    background-color: inherit;
+  }
+  .row img:hover + .shoe3T{
+    opacity: 0%;
+    background-color: inherit;
+  }
+  .middle img{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  ul {
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+    justify-items: center;
+    margin: auto;
+  }
+  .middle{
+    height: 413px;
+  }
+  @media (min-width: 500px) {
+    ul {
+      grid-auto-flow: column;
+    }
+  }
+  
+  li {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  li:hover {
+    color: rgb(228, 123, 53);
+  }
+  a:hover{
+    color: rgb(228, 123, 53);
+  }
+  li:last-child {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  
+  footer {
+    display: flex;
+    padding: 5% 2% 4% 30%;
+    background-color: #000000;
+    line-height: 1.3;
+    font-family: 'Saira Condensed', sans-serif;
+  }
+
+
+
+  
+      /* @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+    
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      } */
+
+ 
+  /* @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      text-align: center;
+      
+    }
+    .header-right {
+      float: none;
+    }
+  } */
